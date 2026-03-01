@@ -1,8 +1,11 @@
----
-# user-scripts
+# A collection of personal Tampermonkey/Greasemonkey user scripts.
 
-A collection of personal Tampermonkey/Greasemonkey user scripts.
----
+## 🚀 Installation
+
+ Install a userscript manager:
+   - Tampermonkey (recommended)
+   - Greasemonkey
+   - Violentmonkey
 
 ## 🟣 twitch-video-tab.user.js
 
@@ -24,24 +27,15 @@ Twitch is a single-page React application (SPA), meaning URL changes do not trig
 
 ---
 
-## 🚀 Installation
 
-1. Install a userscript manager:
-   - Tampermonkey (recommended)
-   - Greasemonkey
-   - Violentmonkey
-
-2. Open:
-
-   ```
-   scripts/twitch-video-tab.user.js
-   ```
+1. Install: 
+   [https://github.com/ninox14/user-scripts/raw/refs/heads/master/scripts/twitch-video-tab.user.js](https://github.com/ninox14/user-scripts/raw/refs/heads/master/scripts/twitch-video-tab.user.js)
 
 3. Click **Install** in your userscript manager.
 
 ---
 
-## 🛠 Customization
+### 🛠 Customization
 
 Edit the `updateQueryParams()` function inside the script to modify:
 
@@ -52,10 +46,3 @@ newUrl.searchParams.set('filter', 'archives');
 
 Add, remove, or change parameters as desired.
 
----
-
-## 📜 License
-
-MIT (or your preferred license)
-
----
